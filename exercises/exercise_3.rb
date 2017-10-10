@@ -6,4 +6,5 @@ puts "Exercise 3"
 puts "----------"
 
 @store3 = Store.find(3)
-p @store3.name
+@store3.destroy
+puts Store.count
